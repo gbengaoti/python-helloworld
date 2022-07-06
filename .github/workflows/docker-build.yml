@@ -37,7 +37,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          ./test_with_pytest
+          ./test_with_pytest.py
 
   docker:
     # The type of runner that the job will run on
